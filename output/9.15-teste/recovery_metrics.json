@@ -1,0 +1,8 @@
+{
+  "phase3_found": false,
+  "recovery_latency_s": null,
+  "peak_time_s": null,
+  "support_time_s": null,
+  "peak_residual_pupil": null,
+  "note": "Nenhuma amostra de Fase 3 encontrada."
+}

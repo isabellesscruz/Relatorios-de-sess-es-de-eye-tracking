@@ -1,0 +1,2 @@
+phase,duration_s,n_samples,mean_residual_pupil_mm,mean_gaze_entropy_bits,tutorial_dwell_s,support_dwell_s,n_rescue_saccades,confusion_time_s
+Default,435.0434,9606,-0.3139,4.3081,19.6623,171.0152,1,285.0886

@@ -1,0 +1,7 @@
+target,category,dwell_s,n_visits,dwell_pct
+Wall,support,31.0125,31,51.3684
+Checker,task,26.4177,26,43.7577
+Wood,task,2.6272,25,4.3516
+Paper_0,tutorial,0.2229,1,0.3692
+Grinder,machine,0.0567,1,0.0939
+Toaster,machine,0.0357,1,0.0592

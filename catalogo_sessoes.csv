@@ -1,0 +1,11 @@
+session_id,build_version,start_utc,scene,is_baseline,has_analysis,raw_csv,output_dir,session_duration_s,tutorial_dwell_pct,n_tutorial_fixations,mean_tutorial_fixation_s,n_rescue_saccades,machine_dwell_s,item_dwell_s,confusion_pct,mean_k_coefficient,mean_residual_pupil_mm
+sessao-teste1-03-07-2026-isabelle,0.9.8,2026-07-03T13:18:38.2809980Z,Factory,False,True,sessao-teste1-03-07-2026-isabelle/EyeTrackingData.csv,output/sessao-teste1-03-07-2026-isabelle,262.404,0.0,0,0.0,0.0,0.0,0.0,59.2498,0.5394,-0.0792
+sessao-teste2-isabelle-03-07-2026,0.9.9,2026-07-03T14:21:46.2738870Z,Factory,False,True,sessao-teste2-isabelle-03-07-2026/EyeTrackingData.csv,output/sessao-teste2-isabelle-03-07-2026,229.0582,0.0,0,0.0,0.0,0.0,0.0,71.8183,0.5528,0.1794
+teste3-03-06-2026-isabelle,0.9.10,2026-07-03T15:35:30.5626430Z,Factory,False,True,teste3-03-06-2026-isabelle/EyeTrackingData.csv,output/teste3-03-06-2026-isabelle,230.5606,0.0,0,0.0,0.0,0.0,0.0,72.4505,0.5039,0.0347
+teste-piloto-user1-03-07-2026,0.9.10,2026-07-03T17:17:32.2416680Z,Factory,False,True,teste-piloto-user1-03-07-2026/EyeTrackingData.csv,output/teste-piloto-user1-03-07-2026,508.7823,0.1334,0,0.0,0.0,0.0,0.0,40.3096,0.8614,0.5396
+sessao-01-9.11-05-07-2026,0.9.11,2026-07-05T13:29:00.6527080Z,Factory,False,True,sessao-01-9.11-05-07-2026/EyeTrackingData.csv,output/sessao-01-9.11-05-07-2026,60.3728,0.3692,0,0.0,0.0,0.0924,0.0,53.0679,0.5381,0.1046
+teste-9.12,0.9.12,2026-07-05T13:58:35.7734560Z,Factory,False,True,teste-9.12/EyeTrackingData.csv,output/teste-9.12,191.7146,1.9276,,,1.0,,,26.6463,,0.2574
+teste-9.13,0.9.13,2026-07-05T15:18:43.8800510Z,Factory,False,True,teste-9.13/EyeTrackingData.csv,output/teste-9.13,196.6592,0.8884,,,0.0,,,30.5572,,0.0473
+9.14-teste,0.9.14,2026-07-05T15:55:07.2072730Z,Factory,False,True,9.14-teste/EyeTrackingData.csv,output/9.14-teste,435.0434,4.5196,,,1.0,0.0,0.0,65.5311,0.6599,-0.3139
+9.15-teste,0.9.14,2026-07-05T17:32:14.4504540Z,Factory,False,True,9.15-teste/EyeTrackingData.csv,output/9.15-teste,370.4013,1.3737,13,0.2199,6.0,5.7771,0.0,57.3565,0.6322,0.2285
+9.15-teste2-ajustes,0.9.15,2026-07-06T17:03:56.2180780Z,Factory,True,True,9.15-teste2-ajustes/EyeTrackingData.csv,output/9.15-teste2-ajustes,372.9841,46.637,329,0.4209,63.0,82.2982,14.2838,11.8077,1.3055,0.0885

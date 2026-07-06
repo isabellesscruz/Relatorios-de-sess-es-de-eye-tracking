@@ -1,0 +1,10 @@
+{
+  "n_samples": 5050,
+  "sampling_rate_hz": 120.0,
+  "valid_gaze_pct": 100.0,
+  "blink_pct": 0.5742574257425742,
+  "valid_pupil_pct": 100.0,
+  "n_tracking_gaps": 0,
+  "max_gap_s": 0.0,
+  "total_gap_s": 0.0
+}

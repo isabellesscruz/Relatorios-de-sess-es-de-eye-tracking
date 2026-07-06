@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Dados reprocessáveis (regenerar com process_eyetracking.py)
+*.parquet
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Temporários na raiz (artefatos soltos de teste)
+/EyeTrackingData1.csv
+/diagnostic1.txt
+/session_meta1.txt

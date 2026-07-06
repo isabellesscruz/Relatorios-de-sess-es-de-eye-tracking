@@ -1,0 +1,13 @@
+{
+  "model": "log",
+  "baseline": 2.8052079677581787,
+  "k": 0.15,
+  "epsilon": 0.01,
+  "calibrated": false,
+  "w_fix": 0.7,
+  "l_background": 0.25,
+  "plr_lowpass_hz": 2.0,
+  "rmse_mm": 0.48441358395891937,
+  "r2": -0.045398355240480415,
+  "n_samples": 5739
+}

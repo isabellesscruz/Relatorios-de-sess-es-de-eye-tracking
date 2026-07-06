@@ -1,0 +1,2 @@
+activity,duration_s,n_samples,mean_residual_pupil_mm,mean_gaze_entropy_bits,task_dwell_s,item_dwell_s,machine_dwell_s,tutorial_dwell_s,support_dwell_s,tutorial_dwell_pct,tutorial_before_task_s,tutorial_after_task_s,n_consult_before,n_consult_after,n_rescue_saccades,confusion_time_s,confusion_pct,n_confusion_episodes
+CortarCacau,60.3728,1260,0.1046,4.2491,29.0449,0.0000,0.0924,0.2229,31.0125,0.3692,0.0000,0.0000,0,0,0,32.0386,53.0679,1

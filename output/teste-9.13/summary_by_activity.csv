@@ -1,0 +1,4 @@
+activity,duration_s,n_samples,mean_residual_pupil_mm,mean_gaze_entropy_bits,task_dwell_s,tutorial_dwell_s,support_dwell_s,tutorial_dwell_pct,n_rescue_saccades,confusion_time_s,confusion_pct,n_confusion_episodes
+CortarCacau,77.6281,1562,-0.3607,3.4765,36.5319,1.3397,39.7565,1.7257,0,5.7690,7.4316,1
+SecarSemente,60.3747,1297,0.0605,4.3471,20.9304,0.0977,39.3466,0.1618,0,38.3402,63.5037,2
+DescascarSemente,58.5391,1258,0.5401,3.6866,12.6661,0.3097,45.5633,0.5291,0,15.9266,27.2068,2

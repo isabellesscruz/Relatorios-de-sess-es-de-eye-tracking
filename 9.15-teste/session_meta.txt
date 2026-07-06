@@ -1,0 +1,5 @@
+sessionId=30da97c18cc248d88b9c3d2a7fa0c732
+scene=Factory
+startUtc=2026-07-05T17:32:14.4504540Z
+buildVersion=0.9.14
+csvPath=/storage/emulated/0/Android/data/com.MTILab.teste/files/EyeTrackingData.csv

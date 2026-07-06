@@ -1,0 +1,68 @@
+output_file,column,unit,description
+summary_session.csv,session_duration_s,s,Duração total da sessão (max-min de SessionTime).
+summary_session.csv,n_samples,contagem,Número de amostras (frames) de eye-tracking.
+summary_session.csv,sampling_rate_hz,Hz,Taxa de amostragem configurada.
+summary_session.csv,n_activities,contagem,Número de atividades distintas registradas.
+summary_session.csv,mean_residual_pupil_mm,mm,Média da pupila residual (diâmetro observado menos previsto pelo modelo Eckert/PLR).
+summary_session.csv,mean_raw_pupil_mm,mm,"Média do diâmetro pupilar bruto (AvgPupil, sem correção)."
+summary_session.csv,mean_gaze_entropy_bits,bits,"Média da entropia espacial do olhar (Shannon, base 2) em janela móvel."
+summary_session.csv,task_dwell_s,s,Tempo total olhando VOIs de tarefa (objetos/máquinas de trabalho).
+summary_session.csv,tutorial_dwell_s,s,Tempo total olhando painéis de tutorial (Paper_*/Writebook_*).
+summary_session.csv,support_dwell_s,s,Tempo total olhando áreas de suporte genérico (parede/quadro/chão).
+summary_session.csv,tutorial_dwell_pct,%,tutorial_dwell_s como porcentagem da duração da sessão.
+summary_session.csv,n_rescue_saccades,contagem,Número de sacadas de socorro (transição tarefa->tutorial).
+summary_session.csv,confusion_time_s,s,Tempo total em episódios de confusão/busca visual.
+summary_session.csv,confusion_pct,%,confusion_time_s como porcentagem da duração da sessão.
+summary_session.csv,n_confusion_episodes,contagem,Número de episódios de confusão detectados.
+summary_session.csv,blink_count,contagem,Número de amostras marcadas como piscada.
+summary_by_activity.csv,activity,texto,"Rótulo da atividade (CortarCacau, SecarSemente, ...)."
+summary_by_activity.csv,duration_s,s,Duração acumulada de todos os trechos da atividade.
+summary_by_activity.csv,n_samples,contagem,Número de amostras na atividade.
+summary_by_activity.csv,mean_residual_pupil_mm,mm,Média da pupila residual na atividade.
+summary_by_activity.csv,mean_gaze_entropy_bits,bits,Média da entropia espacial do olhar na atividade.
+summary_by_activity.csv,task_dwell_s,s,Tempo olhando VOIs de tarefa na atividade.
+summary_by_activity.csv,tutorial_dwell_s,s,Tempo olhando tutoriais na atividade.
+summary_by_activity.csv,support_dwell_s,s,Tempo olhando suporte genérico na atividade.
+summary_by_activity.csv,tutorial_dwell_pct,%,tutorial_dwell_s como % da duração da atividade.
+summary_by_activity.csv,n_rescue_saccades,contagem,Sacadas de socorro na atividade.
+summary_by_activity.csv,confusion_time_s,s,Tempo em confusão na atividade.
+summary_by_activity.csv,confusion_pct,%,confusion_time_s como % da duração da atividade.
+summary_by_activity.csv,n_confusion_episodes,contagem,Episódios de confusão na atividade.
+summary_by_phase.csv,phase,texto,Nome da fase/etapa registrada no Unity.
+summary_by_phase.csv,duration_s,s,Duração da fase.
+summary_by_phase.csv,n_samples,contagem,Número de amostras na fase.
+summary_by_phase.csv,mean_residual_pupil_mm,mm,Média da pupila residual na fase.
+summary_by_phase.csv,mean_gaze_entropy_bits,bits,Média da entropia do olhar na fase.
+summary_by_phase.csv,tutorial_dwell_s,s,Tempo olhando tutoriais na fase.
+summary_by_phase.csv,support_dwell_s,s,Tempo olhando suporte genérico na fase.
+summary_by_phase.csv,n_rescue_saccades,contagem,Sacadas de socorro na fase.
+summary_by_phase.csv,confusion_time_s,s,Tempo em confusão na fase.
+rescue_saccades.csv,session_time_s,s,Instante do evento (SessionTime).
+rescue_saccades.csv,phase,texto,Fase no momento do evento.
+rescue_saccades.csv,activity,texto,Atividade no momento do evento.
+rescue_saccades.csv,from_target,texto,Alvo olhado imediatamente antes (origem da sacada).
+rescue_saccades.csv,from_aoi,texto,AOI de origem.
+rescue_saccades.csv,to_target,texto,Alvo de tutorial olhado (destino da sacada).
+rescue_saccades.csv,to_aoi,texto,AOI de destino.
+rescue_saccades.csv,gaze_entropy_bits,bits,Entropia do olhar no instante do evento.
+rescue_saccades.csv,pre_rescue_entropy_bits,bits,Entropia média na janela imediatamente anterior ao evento.
+confusion_episodes.csv,start_s,s,Início do episódio de confusão.
+confusion_episodes.csv,end_s,s,Fim do episódio de confusão.
+confusion_episodes.csv,duration_s,s,Duração do episódio.
+confusion_episodes.csv,activity,texto,Atividade predominante no episódio.
+confusion_episodes.csv,mean_gaze_entropy_bits,bits,Entropia média do olhar no episódio.
+confusion_episodes.csv,n_targets_scanned,contagem,Número de alvos distintos varridos no episódio.
+confusion_episodes.csv,targets,texto,Lista de alvos varridos (separados por |).
+timeseries_windowed.csv,window_start_s,s,Início da janela temporal.
+timeseries_windowed.csv,window_end_s,s,Fim da janela temporal.
+timeseries_windowed.csv,dominant_activity,texto,Atividade predominante na janela.
+timeseries_windowed.csv,n_samples,contagem,Amostras na janela.
+timeseries_windowed.csv,mean_residual_pupil_mm,mm,Média da pupila residual na janela.
+timeseries_windowed.csv,mean_raw_pupil_mm,mm,Média da pupila bruta na janela.
+timeseries_windowed.csv,mean_gaze_entropy_bits,bits,Média da entropia do olhar na janela.
+timeseries_windowed.csv,mean_target_switch_rate_hz,Hz,Média da taxa de troca de alvo na janela.
+timeseries_windowed.csv,task_dwell_s,s,Tempo em VOI de tarefa na janela.
+timeseries_windowed.csv,tutorial_dwell_s,s,Tempo em tutorial na janela.
+timeseries_windowed.csv,support_dwell_s,s,Tempo em suporte genérico na janela.
+timeseries_windowed.csv,confusion_frac,fração 0-1,Fração da janela marcada como confusão.
+timeseries_windowed.csv,n_rescue_saccades,contagem,Sacadas de socorro iniciadas na janela.

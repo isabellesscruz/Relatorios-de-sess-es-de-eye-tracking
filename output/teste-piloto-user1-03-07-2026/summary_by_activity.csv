@@ -1,0 +1,7 @@
+activity,duration_s,n_samples,mean_residual_pupil_mm,mean_gaze_entropy_bits,task_dwell_s,item_dwell_s,machine_dwell_s,tutorial_dwell_s,support_dwell_s,tutorial_dwell_pct,tutorial_before_task_s,tutorial_after_task_s,n_consult_before,n_consult_after,n_rescue_saccades,confusion_time_s,confusion_pct,n_confusion_episodes
+CortarCacau,76.0048,1466,0.3070,4.3091,5.1936,0.0000,0.0000,0.2995,70.5117,0.3941,0.0000,0.0000,0,0,0,17.7748,23.3865,1
+SecarSemente,75.9827,1616,0.3543,3.8901,57.3659,0.0000,0.0000,0.0000,18.6169,0.0000,0.0000,0.0000,0,0,0,18.9339,24.9187,2
+DescascarSemente,82.7841,1849,0.6580,4.0137,38.5014,0.0000,0.0000,0.0000,44.2827,0.0000,0.0000,0.0000,0,0,0,38.2465,46.2003,4
+TorrarAmendoa,17.3663,391,0.9228,4.6055,6.3313,0.0000,0.0000,0.2895,10.7455,1.6670,0.0000,0.0000,0,0,0,15.3712,88.5117,0
+Moer,66.7882,1504,0.7147,4.0530,31.8238,0.0000,0.0000,0.0000,34.9644,0.0000,0.0000,0.0000,0,0,0,30.6756,45.9297,4
+Misturar,189.6091,4379,0.5416,3.8154,60.4554,0.0000,0.0000,0.0898,129.0639,0.0474,0.0000,0.0000,0,0,0,84.0334,44.3193,7

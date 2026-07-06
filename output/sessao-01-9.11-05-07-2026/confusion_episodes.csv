@@ -1,0 +1,2 @@
+start_s,end_s,duration_s,activity,mean_gaze_entropy_bits,mean_transition_entropy_bits,mean_k_coefficient,mean_confusion_score,n_targets_scanned,targets
+39.450439453125,67.19719696044922,27.74675750732422,CortarCacau,4.896633148193359,1.0823650123845914,0.16428522765636444,0.6970222592353821,5,Wall|Wood|Checker|Paper_0|Toaster

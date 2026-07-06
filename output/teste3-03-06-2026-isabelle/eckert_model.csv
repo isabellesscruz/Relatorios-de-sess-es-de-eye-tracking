@@ -1,0 +1,2 @@
+model,baseline,k,epsilon,calibrated,w_fix,l_background,plr_lowpass_hz,rmse_mm,r2,n_samples
+log,2.5872,0.1500,0.0100,False,0.7000,0.2500,2.0000,0.4216,-0.0039,5050

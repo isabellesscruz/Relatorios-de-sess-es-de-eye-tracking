@@ -1,0 +1,33 @@
+target,category,dwell_s,n_visits,dwell_pct
+Writebook_5,tutorial,95.2968,48,25.5498
+Paper_0,tutorial,57.8110,23,15.4996
+Mixer,machine,37.3909,19,10.0248
+Door_0,support,34.4002,10,9.2230
+Toaster,machine,19.5886,8,5.2519
+Door,support,18.4311,27,4.9415
+Checker,support,17.8332,23,4.7812
+Dehumidifier,machine,14.1472,8,3.7930
+Peeler,machine,11.1715,4,2.9952
+Writebook_6,tutorial,10.3020,12,2.7621
+Wall,support,8.6803,20,2.3272
+Bandeja,item,7.1490,14,1.9167
+Writebook_3,tutorial,6.2589,2,1.6781
+Collider_11,support,6.2054,19,1.6637
+Chopper,support,5.9846,8,1.6045
+Chocolate,item,4.9779,7,1.3346
+Collider_9,support,3.2588,2,0.8737
+Back,support,3.2178,4,0.8627
+Collider_0,support,2.1962,5,0.5888
+Writebook_1,tutorial,1.5149,1,0.4062
+Paper_1,tutorial,1.5039,1,0.4032
+Writebook_4,tutorial,1.2608,4,0.3380
+Pan,item,1.1305,3,0.3031
+PlateWithSeed,item,1.0263,3,0.2752
+Plate,support,0.9951,5,0.2668
+Wood,support,0.3835,3,0.1028
+Up,support,0.3248,5,0.0871
+Head,support,0.1975,2,0.0530
+Collider_8,support,0.1376,2,0.0369
+FixedFurniture,support,0.1316,3,0.0353
+Poke Interactor,support,0.0444,1,0.0119
+Collider_11 (1),support,0.0317,1,0.0085

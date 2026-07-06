@@ -1,0 +1,2 @@
+session_duration_s,n_samples,sampling_rate_hz,n_activities,mean_residual_pupil_mm,mean_raw_pupil_mm,mean_gaze_entropy_bits,task_dwell_s,tutorial_dwell_s,support_dwell_s,tutorial_dwell_pct,n_rescue_saccades,confusion_time_s,confusion_pct,n_confusion_episodes,blink_count
+196.6592,4117,120.0000,3,0.0473,2.8080,3.8161,70.1283,1.7471,124.7838,0.8884,0,60.0936,30.5572,5,10

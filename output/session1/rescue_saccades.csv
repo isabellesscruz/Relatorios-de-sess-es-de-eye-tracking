@@ -1,0 +1,5 @@
+SessionTime,Phase,from_target,from_aoi,to_target,to_aoi,GazeEntropy,pre_rescue_entropy_mean
+5.404345,Default,Wood,Barrier,Wall,Barrier,3.7137263,3.713726758956909
+13.72476,Default,Wood,Barrier,Wall,Barrier,2.9658377,4.156792640686035
+27.00077,Default,Wood,Barrier,Wall,Barrier,4.9066477,4.349645137786865
+28.97568,Default,Wood,Barrier,Wall,Barrier,3.7518973,4.541702747344971

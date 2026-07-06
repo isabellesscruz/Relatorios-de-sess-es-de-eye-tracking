@@ -1,0 +1,7 @@
+session_time_s,phase,activity,from_target,from_aoi,to_target,to_aoi,gaze_entropy_bits,pre_rescue_entropy_bits
+17.9878,Default,CortarCacau,Writebook_5,Default,Writebook_5,Default,4.922903,4.922902584075928
+18.62033,Default,CortarCacau,Writebook_5,Default,Wall,Barrier,4.922903,4.922902584075928
+21.47046,Default,CortarCacau,Mixer,Default,Writebook_5,Default,4.922903,4.922904014587402
+46.15283,Default,CortarCacau,Wall,Barrier,Paper_0,Default,3.4852808,3.528904438018799
+159.9815,Default,Moer,Wall,Barrier,Wall,Barrier,4.6359205,4.583542346954346
+199.1305,Default,TorrarAmendoa,Writebook_6,Default,Writebook_6,Default,4.5250235,3.9450392723083496
