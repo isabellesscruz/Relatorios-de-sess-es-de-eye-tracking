@@ -16,7 +16,7 @@ csv_status.txt        ← opcional
 Use um ID descritivo e único:
 
 ```
-sessoes/<build>-<descricao>/
+<session_id>/
 ```
 
 Exemplos já usados:
@@ -32,23 +32,13 @@ Exemplos já usados:
 
 Ex.: `0.9.16-p02-0707`
 
-## 3. Rodar o pipeline
+## 3. Processar localmente
 
-Na raiz `sessoes/`:
-
-```bash
-python process_eyetracking.py <session_id>/EyeTrackingData.csv \
-    --config config/default_config.yaml \
-    --output output/<session_id>
-```
+O pipeline Python **não está neste repositório**. Rode a análise na sua máquina (pasta local com `process_eyetracking.py`) e gere os outputs em `output/<session_id>/`.
 
 ## 4. Atualizar o catálogo de evolução
 
-```bash
-python scripts/build_catalog.py
-```
-
-Isso regera:
+Edite manualmente ou regere localmente:
 - `catalogo_sessoes.csv`
 - `docs/evolucao_metricas.md`
 
@@ -72,7 +62,7 @@ git push
 
 - [ ] `session_meta.txt` com `buildVersion` correto
 - [ ] `diagnostic.txt` com `composeGazeWithCamera=True` (builds ≥ 0.9.15)
-- [ ] Pipeline rodou sem erro
+- [ ] Pipeline rodou sem erro (localmente)
 - [ ] `tutorial_dwell_pct` > 5% (sessão calibrada esperada)
 - [ ] `catalogo_sessoes.csv` atualizado
 

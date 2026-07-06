@@ -1,4 +1,9 @@
-# Python
+# Python (pipeline local — não versionado neste repositório)
+scripts/
+cocoa_analysis/
+config/
+process_eyetracking.py
+requirements.txt
 __pycache__/
 *.py[cod]
 *.pyo

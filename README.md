@@ -1,8 +1,10 @@
-# Cocoa Fabric — Eye-Tracking (Sessões de Teste)
+# Cocoa Fabric — Relatórios de Sessões de Eye-Tracking
 
-Pipeline de análise eye-tracking para o ambiente VR **Cocoa Fabric** (Heurística #5 Nielsen — Prevenção de Erros).
+Repositório de **relatórios e evolução das sessões de teste** eye-tracking no ambiente VR **Cocoa Fabric** (Heurística #5 Nielsen — Prevenção de Erros).
 
-Este repositório documenta a **evolução das sessões de teste**, desde builds piloto (0.9.8) até a **primeira sessão calibrada** (`9.15-teste2-ajustes`, build 0.9.15).
+Documenta a evolução desde builds piloto (0.9.8) até a **primeira sessão calibrada** (`9.15-teste2-ajustes`, build 0.9.15).
+
+> O pipeline de análise Python roda **localmente** e não é versionado aqui — este repositório contém apenas dados, resultados e documentação.
 
 ## Sessão de referência (baseline)
 
@@ -17,18 +19,11 @@ Este repositório documenta a **evolução das sessões de teste**, desde builds
 ## Estrutura do repositório
 
 ```
-sessoes/
-├── README.md                    ← este arquivo
-├── catalogo_sessoes.csv         ← índice de todas as sessões (auto-gerado)
-├── process_eyetracking.py       ← pipeline principal
-├── requirements.txt
-├── config/
-│   └── default_config.yaml
-├── cocoa_analysis/              ← módulos Python (Eckert, métricas, plots)
-├── scripts/
-│   └── build_catalog.py         ← regera catálogo e tabela de evolução
+├── README.md
+├── catalogo_sessoes.csv         ← índice de todas as sessões
 ├── docs/
-│   ├── evolucao_metricas.md     ← comparação entre sessões (auto-gerado)
+│   ├── evolucao_metricas.md     ← comparação entre sessões
+│   ├── relatorio_baseline_9.15-teste2-ajustes.md
 │   └── COMO_ADICIONAR_SESSAO.md
 ├── <session_id>/                ← dados brutos por sessão
 │   ├── EyeTrackingData.csv
@@ -52,34 +47,14 @@ sessoes/
 
 Ver tabela completa em [`docs/evolucao_metricas.md`](docs/evolucao_metricas.md) e [`catalogo_sessoes.csv`](catalogo_sessoes.csv).
 
-## Instalação
-
-```bash
-cd sessoes
-pip install -r requirements.txt
-```
-
-## Processar uma sessão
-
-```bash
-python process_eyetracking.py 9.15-teste2-ajustes/EyeTrackingData.csv \
-    --config config/default_config.yaml \
-    --output output/9.15-teste2-ajustes
-```
-
 ## Adicionar nova sessão
 
-1. Copie do headset a pasta com `EyeTrackingData.csv`, `session_meta.txt` e `diagnostic.txt`.
-2. Crie `sessoes/<novo_id>/` com esses arquivos.
-3. Rode o pipeline (comando acima, trocando o ID).
-4. Atualize o catálogo: `python scripts/build_catalog.py`.
-5. Commit com mensagem descritiva (build, participante, o que mudou).
+1. Processe localmente com o pipeline Python (fora deste repositório).
+2. Copie para cá os dados brutos e os outputs gerados.
+3. Atualize `catalogo_sessoes.csv` e `docs/evolucao_metricas.md`.
+4. Commit e push.
 
 Detalhes: [`docs/COMO_ADICIONAR_SESSAO.md`](docs/COMO_ADICIONAR_SESSAO.md).
-
-## Publicar no GitHub
-
-Instruções passo a passo: [`docs/SETUP_GITHUB.md`](docs/SETUP_GITHUB.md).
 
 ## Principais outputs por sessão
 

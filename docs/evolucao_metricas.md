@@ -2,7 +2,7 @@
 
 **Sessão de referência (baseline calibrada):** `9.15-teste2-ajustes` (build 0.9.15)
 
-Tabela gerada automaticamente por `scripts/build_catalog.py`.
+Tabela mantida em `catalogo_sessoes.csv`.
 
 | Sessão | Build | Tutorial % | Fixações tutorial | Sacadas socorro | Máquinas (s) | Confusão % | Análise |
 |---|---:|---:|---:|---:|---:|---:|---|
@@ -19,6 +19,6 @@ Tabela gerada automaticamente por `scripts/build_catalog.py`.
 
 ## Como atualizar
 
-1. Adicione a pasta da nova sessão em `sessoes/<nome>/` com `EyeTrackingData.csv` e `session_meta.txt`.
-2. Rode o pipeline: `python process_eyetracking.py <nome>/EyeTrackingData.csv --output output/<nome>`.
-3. Regere o catálogo: `python scripts/build_catalog.py`.
+1. Adicione a pasta da nova sessão com `EyeTrackingData.csv` e `session_meta.txt`.
+2. Processe localmente e gere `output/<nome>/`.
+3. Atualize `catalogo_sessoes.csv` e este arquivo.

@@ -26,8 +26,7 @@ git push -u origin main
 ## 3. Fluxo para cada nova sessão
 
 ```powershell
-python process_eyetracking.py <session_id>/EyeTrackingData.csv --config config/default_config.yaml --output output/<session_id>
-python scripts/build_catalog.py
+# Processar localmente (fora deste repositório), depois:
 git add <session_id>/ output/<session_id>/ catalogo_sessoes.csv docs/evolucao_metricas.md
 git commit -m "Adiciona sessão <session_id> (build X.Y.Z)"
 git push
@@ -37,10 +36,10 @@ git push
 
 | Incluído | Excluído (.gitignore) |
 |---|---|
-| CSVs brutos (`EyeTrackingData.csv`) | `__pycache__/`, `.venv/` |
+| CSVs brutos (`EyeTrackingData.csv`) | Pipeline Python (`scripts/`, `cocoa_analysis/`, etc.) |
 | Metadados (`session_meta.txt`, `diagnostic.txt`) | `*.parquet` (regenerável) |
 | Outputs de análise (`output/<id>/`) | Artefatos soltos na raiz |
-| Scripts Python e config | Projeto Unity (`Library/`, etc.) |
+| Catálogo e documentação | Projeto Unity (`Library/`, etc.) |
 
 ## 5. Baseline de referência
 
