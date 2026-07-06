@@ -102,4 +102,4 @@ Instruções passo a passo: [`docs/SETUP_GITHUB.md`](docs/SETUP_GITHUB.md).
 
 ## Licença
 
-Uso acadêmico — Mestrado MTI/Lab.
+Apache-2.0 — ver [`LICENSE`](LICENSE). Uso acadêmico — Mestrado MTI/Lab.
