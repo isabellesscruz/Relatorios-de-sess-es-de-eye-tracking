@@ -4,7 +4,7 @@ Repositório de **relatórios e evolução das sessões de teste** eye-tracking 
 
 Documenta a evolução desde builds piloto (0.9.8) até a **primeira sessão calibrada** (`9.15-teste2-ajustes`, build 0.9.15).
 
-> O pipeline de análise Python roda **localmente** e não é versionado aqui — este repositório contém apenas dados, resultados e documentação.
+> Este repositório contém **apenas os outputs analisados** de cada sessão. Dados brutos e pipeline Python ficam apenas na máquina local.
 
 ## Sessão de referência (baseline)
 
@@ -25,10 +25,6 @@ Documenta a evolução desde builds piloto (0.9.8) até a **primeira sessão cal
 │   ├── evolucao_metricas.md     ← comparação entre sessões
 │   ├── relatorio_baseline_9.15-teste2-ajustes.md
 │   └── COMO_ADICIONAR_SESSAO.md
-├── <session_id>/                ← dados brutos por sessão
-│   ├── EyeTrackingData.csv
-│   ├── session_meta.txt
-│   └── diagnostic.txt
 └── output/<session_id>/         ← resultados da análise
     ├── summary_session.csv
     ├── tutorial_consultations.csv
@@ -49,8 +45,8 @@ Ver tabela completa em [`docs/evolucao_metricas.md`](docs/evolucao_metricas.md) 
 
 ## Adicionar nova sessão
 
-1. Processe localmente com o pipeline Python (fora deste repositório).
-2. Copie para cá os dados brutos e os outputs gerados.
+1. Processe localmente com o pipeline Python (dados brutos ficam no PC).
+2. Adicione ao repositório apenas `output/<session_id>/`.
 3. Atualize `catalogo_sessoes.csv` e `docs/evolucao_metricas.md`.
 4. Commit e push.
 

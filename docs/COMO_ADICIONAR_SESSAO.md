@@ -2,7 +2,7 @@
 
 ## 1. Coleta no VR (Unity)
 
-Após cada teste no headset, copie do dispositivo para o PC:
+Após cada teste no headset, copie do dispositivo para o PC (armazenamento **local**, não vai ao GitHub):
 
 ```
 EyeTrackingData.csv
@@ -11,13 +11,9 @@ diagnostic.txt        ← confirma composeGazeWithCamera, headReference, etc.
 csv_status.txt        ← opcional
 ```
 
-## 2. Nomear a pasta
+## 2. Nomear a sessão
 
-Use um ID descritivo e único:
-
-```
-<session_id>/
-```
+Use um ID descritivo e único — será o nome da pasta em `output/<session_id>/`.
 
 Exemplos já usados:
 - `9.15-teste2-ajustes` — primeira sessão calibrada (baseline)
@@ -34,11 +30,11 @@ Ex.: `0.9.16-p02-0707`
 
 ## 3. Processar localmente
 
-O pipeline Python **não está neste repositório**. Rode a análise na sua máquina (pasta local com `process_eyetracking.py`) e gere os outputs em `output/<session_id>/`.
+Rode o pipeline Python na sua máquina e gere `output/<session_id>/`.
 
 ## 4. Atualizar o catálogo de evolução
 
-Edite manualmente ou regere localmente:
+Edite:
 - `catalogo_sessoes.csv`
 - `docs/evolucao_metricas.md`
 
@@ -53,18 +49,17 @@ output/9.15-teste2-ajustes/relatorio_primeira_sessao_calibrada.md
 ## 6. Commit no Git
 
 ```bash
-git add <session_id>/ output/<session_id>/ catalogo_sessoes.csv docs/
+git add output/<session_id>/ catalogo_sessoes.csv docs/
 git commit -m "Adiciona sessão <session_id> (build X.Y.Z)"
 git push
 ```
 
 ## Checklist de qualidade antes de incluir no repositório
 
-- [ ] `session_meta.txt` com `buildVersion` correto
-- [ ] `diagnostic.txt` com `composeGazeWithCamera=True` (builds ≥ 0.9.15)
 - [ ] Pipeline rodou sem erro (localmente)
 - [ ] `tutorial_dwell_pct` > 5% (sessão calibrada esperada)
 - [ ] `catalogo_sessoes.csv` atualizado
+- [ ] Apenas `output/<session_id>/` adicionado — **sem dados brutos**
 
 ## Sessão de referência
 

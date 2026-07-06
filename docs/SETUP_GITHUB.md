@@ -26,8 +26,8 @@ git push -u origin main
 ## 3. Fluxo para cada nova sessão
 
 ```powershell
-# Processar localmente (fora deste repositório), depois:
-git add <session_id>/ output/<session_id>/ catalogo_sessoes.csv docs/evolucao_metricas.md
+# Processar localmente, depois publicar apenas os outputs:
+git add output/<session_id>/ catalogo_sessoes.csv docs/evolucao_metricas.md
 git commit -m "Adiciona sessão <session_id> (build X.Y.Z)"
 git push
 ```
@@ -36,10 +36,9 @@ git push
 
 | Incluído | Excluído (.gitignore) |
 |---|---|
-| CSVs brutos (`EyeTrackingData.csv`) | Pipeline Python (`scripts/`, `cocoa_analysis/`, etc.) |
-| Metadados (`session_meta.txt`, `diagnostic.txt`) | `*.parquet` (regenerável) |
-| Outputs de análise (`output/<id>/`) | Artefatos soltos na raiz |
-| Catálogo e documentação | Projeto Unity (`Library/`, etc.) |
+| Outputs de análise (`output/<id>/`) | Dados brutos (`EyeTrackingData.csv`, `session_meta.txt`, etc.) |
+| Catálogo e documentação | Pipeline Python (`scripts/`, `cocoa_analysis/`, etc.) |
+| Relatórios (MD/PDF) | `*.parquet` (regenerável) |
 
 ## 5. Baseline de referência
 

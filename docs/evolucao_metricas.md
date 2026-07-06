@@ -19,6 +19,6 @@ Tabela mantida em `catalogo_sessoes.csv`.
 
 ## Como atualizar
 
-1. Adicione a pasta da nova sessão com `EyeTrackingData.csv` e `session_meta.txt`.
-2. Processe localmente e gere `output/<nome>/`.
-3. Atualize `catalogo_sessoes.csv` e este arquivo.
+1. Processe localmente e gere `output/<nome>/`.
+2. Atualize `catalogo_sessoes.csv` e este arquivo.
+3. Commit apenas a pasta `output/<nome>/` — sem dados brutos.

@@ -1,3 +1,9 @@
+# Dados brutos de coleta VR (mantidos apenas localmente)
+**/EyeTrackingData.csv
+**/session_meta.txt
+**/diagnostic.txt
+**/csv_status.txt
+
 # Python (pipeline local — não versionado neste repositório)
 scripts/
 cocoa_analysis/
