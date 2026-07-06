@@ -19,7 +19,7 @@ git add .
 git status
 git commit -m "Baseline: primeira sessão calibrada (9.15-teste2-ajustes, build 0.9.15)"
 git branch -M main
-git remote add origin https://github.com/<seu-usuario>/<nome-do-repo>.git
+git remote add origin https://github.com/isabellesscruz/Relatorios-de-sess-es-de-eye-tracking.git
 git push -u origin main
 ```
 
@@ -54,5 +54,5 @@ git push
 Se instalar o [GitHub CLI](https://cli.github.com/):
 
 ```powershell
-gh repo create cocoa-fabric-eyetracking-sessoes --private --source=. --remote=origin --push
+gh repo create Relatorios-de-sess-es-de-eye-tracking --public --source=. --remote=origin --push
 ```
